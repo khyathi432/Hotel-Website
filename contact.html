@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Luxury Stay Hotel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Luxury Stay Hotel</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Book Your Stay</h1>
+        <p>Reserve your room quickly and easily.</p>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-section">
+
+        <form class="booking-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin" required>
+
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout" required>
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" min="1" placeholder="Number of guests" required>
+
+            <label for="room">Room Type</label>
+            <select id="room" required>
+                <option value="">Select Room Type</option>
+                <option>Deluxe Room</option>
+                <option>Premium Room</option>
+                <option>Family Suite</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5"
+                placeholder="Any special requests?"></textarea>
+
+            <button type="submit" class="btn">
+                Submit Booking
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>Luxury Stay Hotel</h2>
+
+        <p>
+            <strong>Address:</strong><br>
+            Beach Road, Visakhapatnam, Andhra Pradesh, India
+        </p>
+
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+
+        <p><strong>Email:</strong> info@luxurystayhotel.com</p>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Luxury Stay Hotel. All Rights Reserved.
+        </p>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
